@@ -37,3 +37,8 @@ const myFunction =  function(){
 }
 
 console.log(typeof bigNumber);
+
+// *******************************
+
+//  Stack => (Primitive) , yaha copy milta hai 
+//  Heap => (Non-Primitive), yaha reference milta hai
