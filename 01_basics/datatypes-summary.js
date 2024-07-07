@@ -36,9 +36,28 @@ const myFunction =  function(){
     console.log("Hello World");
 }
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
 
 // *******************************
 
 //  Stack => (Primitive) , yaha copy milta hai 
 //  Heap => (Non-Primitive), yaha reference milta hai
+
+let myName = "aamir"
+
+let anotherName = myName
+anotherName = "mohd"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email : 'abc@yahoo.com',
+    upi: 'shf@paytm'
+}
+
+let userTwo = userOne
+userTwo.email = "aamir@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
